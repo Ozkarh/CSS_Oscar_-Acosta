@@ -1,0 +1,263 @@
+@font-face {
+  font-family: 'dancingscript';
+  src: url('dancingscript.ttf');
+}
+
+body{
+  background-color: black;
+  font-family: 'dancingscript';
+}
+
+/*Animaciones*/
+
+#contenido{
+  border-radius: 10px;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@-webkit-keyframes slidein {
+
+  0%{
+    margin-top: 100%;
+    height: 300%;
+  }
+
+  60%{
+    margin-top: -5%;
+    height: 100%;
+  }
+
+  100%{
+    margin-top: 0%;
+    height: 100%;
+  }
+
+}
+
+/*modificacion al encabezado*/
+
+
+#Menu a{
+  color: white;
+}
+
+#Menu a[href="retratos.html"]{
+  text-decoration: none;
+}
+
+/*alineando las imagenes*/
+
+
+
+/*filtro de las imagenes*/
+#c1{
+  filter: blur(10px);
+}
+
+#c2,#c4,#c6{
+  filter: grayscale(100%);
+}
+
+#c3{
+  filter: sepia(90%);
+}
+
+
+/*Arreglo de pie de pagina*/
+
+
+
+/*---------------Utilizacion de media quaries----------------------*/
+
+/*------Fomato para pantallas moviles------------*/
+
+@media (max-width:900px) {
+
+  #contenido{
+    width: 100%;
+    margin: auto;
+  }
+    /*Modificaciones del encabezado*/
+    header{
+      background-color: #5b7989;
+      color: white;
+      padding:20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 10px 10px 0px 0px;
+      height: 15%;
+    }
+
+    header div{
+      width: 100%;
+      padding: 20px;
+    }
+
+    header div h1{
+      text-align:center;
+      text-shadow: 2px 2px 2px #02010a;
+    }
+
+    header div nav{
+      text-align: center;
+      font-size: 1.5em;
+    }
+
+    /*alineando las imagenes*/
+
+    section{
+      padding: 10px;
+      background-color: #d5c75f;
+    }
+
+    .clase01 div{
+      width: 100%;
+      margin: auto;
+    }
+
+    .clase01 div img{
+      width: 100%;
+      margin: auto;
+    }
+
+    .clase01{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .clase02 div{
+      width: 100%
+      margin:auto;
+    }
+
+    .clase02 div img{
+      width: 100%;
+      margin: auto;
+    }
+
+    .clase02{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    /*modificaciones al footer*/
+      footer div{
+        width: 100%;
+        text-align: left;
+      }
+
+      footer div ul{
+        list-style: none;
+      }
+
+      footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 15%;
+        background-color: #C6d5c5;
+        padding: 30px;
+      }
+
+}
+
+
+/*-------------Fomato para pantallas de escritorio*---------*/
+
+@media (min-width: 900px) {
+
+  #contenido{
+    width: 900px;
+    margin: auto;
+  }
+
+    /*Modificaciones del encabezado*/
+  header{
+    background-color: #5b7989;
+    color: white;
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+    height: 15%
+  }
+
+  header div{
+    width: 50%;
+    padding: 20px;
+  }
+
+  header div h1{
+    text-align:left;
+    text-shadow: 2px 2px 2px #02010a;
+  }
+
+  header div nav{
+    text-align: right;
+    font-size: 1.5em;
+  }
+
+  /*alineando las imagenes*/
+
+  section{
+    padding: 10px;
+    background-color: #d5c75f;
+  }
+
+  .clase01 div{
+    width: 33.3%;
+  }
+
+  .clase01 div img{
+    width: 90%;
+  }
+
+  .clase01{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .clase02 div{
+    width: 33.3%
+  }
+
+  .clase02 div img{
+    width: 90%;
+  }
+
+  .clase02{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+      /*modificaciones al footer*/
+
+  footer div{
+    width: 25%;
+    text-align: center;
+  }
+
+  footer div ul{
+    list-style: none;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 15%;
+    background-color: #C6d5c5;
+  }
+
+
+
+
+}
