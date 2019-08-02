@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="Autor" content="Oscar Acosta">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripcion" content="Hoja de Vida">
+    <title>Curriculum Vitae Oscar Armando Acosta</title>
+  </head>
+
+  <header>
+    <svg width="300px" height="120px" viewBox="0 0 900 900" >
+    <g>
+    	<path d="M840.51,820.51V20c0-11.046-8.954-20-20-20H20C8.954,0,0,8.954,0,20v800.51c0,11.046,8.954,20,20,20h800.51
+    		C831.556,840.51,840.51,831.555,840.51,820.51z M75,75h345.255v64.459h73.608c9.523,0,18.604,2.996,26.257,8.666
+    		c7.652,5.669,13.165,13.481,15.939,22.592l147.833,485.31c4.115,13.508,1.654,27.763-6.751,39.109
+    		c-8.404,11.347-21.324,17.855-35.445,17.855H536.094c-9.926,0-19.672-3.401-27.442-9.576c-7.771-6.175-13.286-14.902-15.528-24.571
+    		l-17.856-77.003h-55.012V765.51H75V75z"/>
+    	<path d="M659.978,663.311l-147.833-485.31c-2.45-8.045-9.872-13.542-18.281-13.542h-73.608h-73.608
+    		c-8.409,0-15.831,5.497-18.281,13.542l-147.833,485.31c-3.74,12.279,5.446,24.681,18.282,24.681h105.602
+    		c8.892,0,16.608-6.133,18.617-14.794l22.343-96.356h74.879h74.878l22.343,96.356c2.008,8.661,9.727,14.794,18.617,14.794h105.603
+    		C654.532,687.991,663.719,675.589,659.978,663.311z M420.255,469.719h-49.91l8.86-36.245
+    		c12.887-49.937,25.773-113.565,38.661-165.919h2.389h2.389c12.888,52.354,25.774,115.982,38.661,165.919l8.86,36.245H420.255z"/>
+    </g>
+    </svg>
+
+    <h1>CURRICULUM VITAE</h1>
+    &nbsp&nbsp&nbspOSCAR ARMANDO ACOSTA MARADIAGA <br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp18 FEBRERO 1985 <br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTEGUCIGALPA, HONDURAS, CA <br>
+
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="Paginas/Educacion.html">Educacion</a>&nbsp |
+    <a href="Paginas/Experiencia.html">Experiencia</a>&nbsp |
+    <a href="mailto:x.oacosta.x@gmail.com?subject=Contacto">Contacto</a>
+
+  </header>
+
+  <body>
+
+    <h2>&nbspINFORMACION PERSONAL</h2>
+    <h2>
+       &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       <img src="Imagenes/pp.jpg" alt="Foto Personal" title="fotografia" width="100px" >
+    </h2>
+
+    <h2>&nbsp&nbsp&nbsp&nbspPERFIL PROFESIONAL</h2>
+
+    <p align="justify" rightmargin="1000px">
+
+      Profesional del area de la Ingenieria Electrica con habilidades
+      para organizar el desarrollo de proyectos de diseño, supervision
+      y construccion de sistemas electromecanicos, telecomunciaciones y
+      automatizacion de procesos industriales o de edificios, destreza
+      para el rapido manejo de nuevos sistemas informaticos para diseño
+      o para administracion. Habilidades directivas para la implementacion
+      de nuevos procesos que involucren area energia o telecomuncicaciones.
+      dominio de idiomas:
+
+      <ul>
+        <li>Español: Materna</li>
+        <li>Ingles: intermedio</li>
+      </ul>
+
+     </p>
+  </body>
+
+  <footer>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <a href="mailto:x.oacosta.x@gmail.com?subject=Contacto">Email</a>&nbsp|&nbsp
+    <a href="https://www.facebook.com/oscar.acosta.583234" target="_blank">Facebook</a>
+
+  </footer>
+</html>
