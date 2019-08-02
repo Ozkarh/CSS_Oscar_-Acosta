@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="Autor" content="Oscar Acosta">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripcion" content="Compartir Fotografias">
+    <title>Comenzando con la Fotografia</title>
+    <link rel="stylesheet" href="css/estilo01.css">
+  </head>
+
+  <body>
+    <div id="contenido">
+      <header>
+        <div class="encabezado">
+          <h1>Comenzando con la Fotografia</h1>
+        </div>
+
+        <div class="encabezado">
+          <nav id="Menu">
+            <a href="index.html">Inicio</a> |
+            <a href="Paginas/paisajes.html">Paisajes</a> |
+            <a href="Paginas/retratos.html">Retratos</a>
+          </nav>
+        </div>
+
+      </header>
+
+      <section id="Principal">
+
+        <div id="Contenedor01">
+          <img src="imagenes/Roatan03.jpg" alt="Imagen01">
+        </div>
+
+        <div id="Contenedor02">
+          <div id="paisajes">
+            <img src="imagenes/Copan01.jpg" alt="imagen02">
+            <a href="Paginas/paisajes.html">Paisajes</a>
+          </div>
+          <div id="retratos">
+            <img src="imagenes/niños01.jpg" alt="imagen03">
+            <a href="Paginas/retratos.html">Retratos</a>
+          </div>
+        </div>
+
+      </section>
+
+
+      <footer>
+        <div class="pie">
+          <h2>Contato</h2>
+
+            Infotografia@gamil.com <br>
+            Boulevard Suyapa <br>
+            22456896 <br>
+
+        </div>
+
+        <div class="pie">
+          <h2>Terminos</h2>
+          <p>conoce nuestros terminos y condiciones</p>
+
+        </div>
+
+        <div class="pie">
+          <h2>Redes Sociales</h2>
+
+            Mifotografo <br>
+            @mifotografo <br>
+            Mifotografo <br>
+
+        </div>
+
+        <div class="pie">
+          <h2>Derechos</h2>
+          Derechos Reservados 2019
+
+        </div>
+
+      </footer>
+    </div>
+
+  </body>
+
+</html>
